@@ -1,9 +1,12 @@
 #ifndef ITEMTOPURCHASE_H
 #define ITEMTOPURCHASE_H
 
-class ItemToInput {
+#include <string>
+using namespace std;
+
+class ItemToPurchase {
    public: 
-       ItemToInput();
+       ItemToPurchase();
        void SetName(string name);
        string GetName() const;
        void SetPrice(int price);
