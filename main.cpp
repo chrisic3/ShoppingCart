@@ -44,4 +44,6 @@ int main() {
     cout << item1.GetName() << " " << item1.GetQuantity() << " @ $" << item1.GetPrice() << " = $" << item1Total << endl;
     cout << item2.GetName() << " " << item2.GetQuantity() << " @ $" << item2.GetPrice() << " = $" << item2Total << endl;
     cout << endl << "Total: $" << item1Total + item2Total << endl;
+
+    
 }
