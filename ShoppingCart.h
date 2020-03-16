@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include "ItemToPurchase.h"
 using namespace std;
 
 class ShoppingCart {
@@ -12,7 +13,7 @@ class ShoppingCart {
         string GetCustomerName() const;
         string GetDate() const;
         void AddItem(ItemToPurchase item);
-        void Remove(string itemName);
+        void RemoveItem(string itemName);
         void ModifyItem(ItemToPurchase item);
         int GetNumItemsInCart() const;
         int GetCostOfCart() const;
@@ -23,6 +24,6 @@ class ShoppingCart {
         string customerName;
         string currentDate;
         vector<ItemToPurchase> cartItems;
-}
+};
 
 #endif
